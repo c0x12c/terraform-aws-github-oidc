@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.1]() (2025-07-10)
+
+### Features
+* Upgrade `c0x12c/oidc-provider/aws` module to version `1.0.1`.
+* Correct example in README.
+
 ## [1.0.0]() (2025-07-10)
 
 Release module to Terraform Registry.

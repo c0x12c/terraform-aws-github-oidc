@@ -12,13 +12,15 @@ Connect and the docs provided by GitHub and AWS. As always think about minimizin
 The module can manage the following:
 
 - The OpenID Connect identity provider for GitHub in your AWS account (via a submodule).
-- A role and assume role policy to check to check OIDC claims.
+- A role and assume role policy to check OIDC claims.
 
 ## Usages
 
 ```hcl
 module "github_oidc" {
-  source = "github.com/spartan-stratos/terraform-modules//aws/oidc/github-oidc?ref=v0.1.21"
+  source  = "c0x12c/github-oidc/aws"
+  version = "1.0.1"
+
   role_name       = "service-atlas"
   repository_path = "spartan/example"
 
