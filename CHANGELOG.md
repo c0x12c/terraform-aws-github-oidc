@@ -2,6 +2,9 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.0] (2026-01-30)
+* Remove obsolete variable `repository_path`
+
 ## [1.0.1]() (2025-07-10)
 
 ### Features
