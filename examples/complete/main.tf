@@ -1,7 +1,6 @@
 module "github_oidc" {
-  source          = "../../"
-  role_name       = "service-atlas"
-  repository_path = "spartan/example"
+  source    = "../../"
+  role_name = "service-atlas"
 
   role_policy_arns = []
   conditions = [
