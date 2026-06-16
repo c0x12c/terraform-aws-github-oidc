@@ -40,11 +40,6 @@ variable "role_name_prefix" {
   default     = ""
 }
 
-variable "repository_path" {
-  description = "The path to the repository (organization/repo_name)."
-  type        = string
-}
-
 variable "conditions" {
   description = "(Optional) Additonal conditions for checking the OIDC claim."
   type = list(object({
